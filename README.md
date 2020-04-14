@@ -7,6 +7,12 @@ The robot is designed using DC motors and the direction of DC motors will be con
 
 ## Video Demonstration
 [RC Car with speed control using 8051](https://www.youtube.com/watch?v=-ZegOrQuoXg)
+## Repository Contents
+- **code** - RC car code in Embedded C (8051 micronctoller) Keil uvision was used
+- **images** - Images of the robot and the joy stick controller
+- **report** - Documentation on the working of bot 
+- **schematics** - Hardware schematic of the bot
+
 
 
 ## HC-05 Bluetooth Module:
