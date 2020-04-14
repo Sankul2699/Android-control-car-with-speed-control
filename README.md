@@ -27,7 +27,22 @@ L293D is a dual H-bridge motor driver IC. This acts as a current amplifier, the 
 
 
 ![](https://github.com/Sankul2699/Android-controlled-car-with-speedcontrol/blob/master/images/motor_driver.JPG)
+# Working
 
+In this Smart Phone controlled Robot, the user of android app sends the data to 8051 microcontroller through HC-05 module. The received data is compared in 8051 microcontroller and the decision is made accordingly. The below table shows the direction of motors and status of robot for different received characters.
+
+![](https://github.com/Sankul2699/Android-controlled-car-with-speedcontrol/blob/master/images/table.JPG)
+
+The Bluetooth terminal app allows us to emulate a Bluetooth terminal. This app supports bidirectional communication and this app is compatible with most of the devices.
+The steps below show how to install and use this app.
+- Download and install Bluetooth terminal app on your android phone. The app can be downloaded from the Google  play store.
+  [Bluetooth terminal app](https://play.google.com/store/apps/details?id=ptah.apps.bluetoothterminal)
+- After installing the app, open the app and turn on Bluetooth.
+- Select the device and click on connect option. After successful connection, we  can start sending data to HC-05 module.
+  In our project we have used  the concept of pulse width modulation so that our robot can accelerate
+ And can move in different speeds depending on the character sent by Bluetooth terminal.
+Ex: ‘l’ for low speed
+‘a’ for acceleration 
 
 
 
