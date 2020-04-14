@@ -30,9 +30,11 @@ HC-05 is a serial Bluetooth module. It can be configured using AT commands. It c
 
 # L293D Motor Driver IC:
 L293D is a dual H-bridge motor driver IC. This acts as a current amplifier, the output of L293D drives the DC Motors. It contains two inbuilt H-bridge circuits. In common mode of operation , it can drive two dc motors simultaneously in both the directions. The below table shows the pin description of L293D IC. 
-
-
 ![](https://github.com/Sankul2699/Android-controlled-car-with-speedcontrol/blob/master/images/motor_driver.JPG)
+
+# Circuit Diagram
+![](https://github.com/Sankul2699/Android-controlled-car-with-speedcontrol/blob/master/Schematics/circuit%20diad.JPG)
+
 # Working
 
 In this Smart Phone controlled Robot, the user of android app sends the data to 8051 microcontroller through HC-05 module. The received data is compared in 8051 microcontroller and the decision is made accordingly. The below table shows the direction of motors and status of robot for different received characters.
