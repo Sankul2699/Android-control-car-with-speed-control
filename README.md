@@ -6,7 +6,7 @@ The robot is designed using DC motors and the direction of DC motors will be con
 ![](https://github.com/Sankul2699/Android-controlled-car-with-speedcontrol/blob/master/images/bot%20image.jpeg)
 
 ## Video Demonstration
-[RC Car with speed control using 8051]https://www.youtube.com/watch?v=-ZegOrQuoXg
+[RC Car with speed control using 8051](https://www.youtube.com/watch?v=-ZegOrQuoXg)
 
 
 ## HC-05 Bluetooth Module:
@@ -20,5 +20,14 @@ HC-05 is a serial Bluetooth module. It can be configured using AT commands. It c
 -	Enable pin for activating the HC-05 module. when it is low , the module is disabled
 -	State pin acts status indicator. When it is not paired/connected with any other Bluetooth device, LED flashes continuously. When it is connected/paired with any other Bluetooth device, then the LED flashes with the constant delay of 2 seconds.
 
-
 ![](https://github.com/Sankul2699/Android-controlled-car-with-speedcontrol/blob/master/images/hc05.JPG)
+
+# L293D Motor Driver IC:
+L293D is a dual H-bridge motor driver IC. This acts as a current amplifier, the output of L293D drives the DC Motors. It contains two inbuilt H-bridge circuits. In common mode of operation , it can drive two dc motors simultaneously in both the directions. The below table shows the pin description of L293D IC. 
+
+
+![](https://github.com/Sankul2699/Android-controlled-car-with-speedcontrol/blob/master/images/motor_driver.JPG)
+
+
+
+
